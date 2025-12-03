@@ -11,18 +11,20 @@ COIN_IDS="bitcoin,ethereum,tether,ripple,binancecoin,usd-coin,solana,tron,dogeco
 run_sql() {
     local query="$1"
     local output
-    output=$(mysql -u "$DB_USER" --skip-password -D "$DB_NAME" -s -e "$query" 2>&1)
+    output=$(mysql -u "$DB_USER" --skip-password -D "$DB_NAME" -s -e "$query" 2>/dev/null)
     local status=$?
 
     if [ $status -ne 0 ]; then
         echo "[DB ERROR] Query failed (Status $status) for $symbol. Logged to db_errors.log."
+        local error_output=$(mysql -u "$DB_USER" --skip-password -D "$DB_NAME" -s -e "$query" 2>&1)
         {
             echo "Query: $query"
-            echo "Output: $output"
+            echo "Output: $error_output"
             echo "Time: $(date)"
             echo "---"
         } >> db_errors.log
     fi
+    echo "$output"
 }
 
 echo "---------------------------------"
@@ -62,7 +64,7 @@ for i in "${!SYMBOLS[@]}"; do
     clean_change=$(printf "%.2f" "$change_percent")
 
     # Calculate Moving Average (5 periods)
-    last_prices=$(run_sql "SELECT price FROM $TABLE WHERE symbol = '$symbol' ORDER BY date_recorded DESC LIMIT 4;")
+    last_prices=$(run_sql "SELECT price FROM $TABLE WHERE symbol = '$symbol' ORDER BY date_recorded DESC LIMIT 4;" 2>/dev/null)
 
     total_sum="$clean_price"
     count=1
@@ -80,11 +82,16 @@ for i in "${!SYMBOLS[@]}"; do
         MA="NULL"
     fi
 
-    echo "Found $symbol: Price \$$clean_price | Change $clean_change% | MA: $MA"
-
-    # Insert data into DB
-    insert_query="INSERT INTO $TABLE (symbol, price, change_percent, moving_average) VALUES ('$symbol', $clean_price, $clean_change, $MA);"
+    if [ "$MA" == "NULL" ]; then
+        insert_query="INSERT INTO $TABLE (symbol, price, change_percent, moving_average) VALUES ('$symbol', $clean_price, $clean_change, NULL);"
+        echo "Found $symbol: Price \$$clean_price | Change $clean_change% | MA: NULL (Count: $count)"
+    else
+        insert_query="INSERT INTO $TABLE (symbol, price, change_percent, moving_average) VALUES ('$symbol', $clean_price, $clean_change, $MA);"
+        echo "Found $symbol: Price \$$clean_price | Change $clean_change% | MA: $MA (Count: $count)"
+    fi
+    
     run_sql "$insert_query"
+
 done
 
 echo "---------------------------------"
