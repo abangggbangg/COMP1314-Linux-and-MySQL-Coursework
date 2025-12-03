@@ -1,0 +1,255 @@
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BTC', 93042, 7.02, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ETH', 3055.78, 8.85, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDT', 1.0, 0.02, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('XRP', 2.19, 8.48, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BNB', 892.75, 7.34, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDC', 0.999804, 0.00, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('SOL', 142.02, 11.64, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:07 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('TRX', 0.280276, 1.24, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:08 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('DOGE', 0.148528, 9.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:08 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.438809, 12.09, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:51:08 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BTC', 93056, 6.96, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ETH', 3057.49, 8.91, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDT', 1.0, 0.02, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('XRP', 2.19, 8.65, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BNB', 893.51, 7.35, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDC', 0.999804, 0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('SOL', 142.15, 11.75, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('TRX', 0.280274, 1.24, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('DOGE', 0.148688, 9.13, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.439396, 12.27, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.439396, 12.27, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 12:53:12 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BTC', 92892, 7.33, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BTC', 92892, 7.33, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ETH', 3053.71, 9.48, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ETH', 3053.71, 9.48, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDT', 1.0, 0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDT', 1.0, 0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('XRP', 2.19, 9.57, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('XRP', 2.19, 9.57, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BNB', 895.21, 8.28, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BNB', 895.21, 8.28, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDC', 0.999701, -0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDC', 0.999701, -0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('SOL', 141.87, 12.28, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('SOL', 141.87, 12.28, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('TRX', 0.280133, 1.13, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('TRX', 0.280133, 1.13, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('DOGE', 0.150249, 11.31, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('DOGE', 0.150249, 11.31, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.443187, 14.36, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.443187, 14.36, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:27:41 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BTC', 92865, 7.30, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:44 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ETH', 3049.62, 9.33, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDT', 1.0, 0.01, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('XRP', 2.19, 9.53, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('BNB', 894.76, 8.22, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('USDC', 0.999701, -0.02, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('SOL', 141.87, 12.28, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('TRX', 0.280154, 1.14, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('DOGE', 0.150262, 11.32, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
+Query: INSERT INTO stock_data (symbol, price, change_percent, moving_average) VALUES ('ADA', 0.443288, 14.39, );
+Output: mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Time: Wed Dec  3 16:29:45 +08 2025
+---
