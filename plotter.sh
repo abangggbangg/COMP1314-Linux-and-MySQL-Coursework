@@ -2,7 +2,8 @@
 
 DB_NAME="stock_tracker"
 DB_USER="root"
-TABLE="stock_data"
+COINS_TABLE="coins"
+HISTORY_TABLE="data_history"
 
 # Check if a cryptocurrency symbol was passed as an argument
 if [ -z "$1" ]; then
@@ -26,13 +27,21 @@ run_query() {
 
 # 1. Database Query: Extract historical data
 echo "Querying historical data for $SYMBOL_TO_PLOT..."
+COIN_ID=$(run_query "SELECT coin_id FROM $COINS_TABLE WHERE symbol = '$SYMBOL_TO_PLOT';")
+
+if [ -z "$COIN_ID" ]; then
+    echo "[ERROR] Coin symbol '$SYMBOL_TO_PLOT' not found in the '$COINS_TABLE' table. Cannot plot."
+    rm -f "$DATA_FILE" 2>/dev/null
+    exit 1
+fi
+
 QUERY="
     SELECT 
         UNIX_TIMESTAMP(date_recorded), 
         price,
         moving_average
-    FROM $TABLE 
-    WHERE symbol = '$SYMBOL_TO_PLOT' 
+    FROM $HISTORY_TABLE 
+    WHERE coin_id = '$COIN_ID' 
     ORDER BY date_recorded ASC;
 "
 
